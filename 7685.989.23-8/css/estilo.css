@@ -1,0 +1,575 @@
+/*
+ * Arquivo com os estilos principais do sistema e-TCESP
+ */
+/* CSS Document */
+a:link.Menu {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited.Menu {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:active.Menu {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover.Menu {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px; 
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a {
+	color:#990000;
+}
+
+a:hover {
+	color:#993300;
+}
+
+td{
+	margin-left:1px;
+	margin-right:1px;
+}
+
+td.MenuTopo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+td.TitulosWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.primeiraLinha {
+	background-color:#BEBEBE;
+	color:#900e0e;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+.ultimaLinha {
+	background-color:#BEBEBE;
+
+}
+
+.tituloPagina {
+	color:#990000;
+	font-size:16px;
+	font-weight:bold;
+
+}
+
+.subTituloPagina {
+	color:#000000;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.topico {
+	color:#990000;
+	font-weight: bold;
+}
+
+.subTituloTabela {
+	background-color:#CCCCCC;
+	font-weight:bold;
+}
+
+.tBranca {
+	background-color:#FFFFFF;
+
+}
+
+.tCinza {
+	background-color:#F1EAE7;
+
+}
+
+.trZebra2x:nth-child(4n-2), .trZebra2x:nth-child(4n-3) {
+    background: #F1EAE7;
+}
+
+.trZebra:nth-child(even) {
+    background: #F1EAE7;
+}
+
+table.zebra2x > tbody > tr:nth-child(4n-2), table.zebra2x > tbody > tr:nth-child(4n-3),
+table.zebra2x > tr:nth-child(4n-2), table.zebra2x > tr:nth-child(4n-3),
+ul.zebra2x > li:nth-child(4n-2), ul.zebra2x > li:nth-child(4n-3) {
+    background: #F1EAE7;
+}
+
+table.zebra > tbody > tr:nth-child(even),
+table.zebra > tr:nth-child(even),
+ul.zebra > li:nth-child(even) {
+    background: #F1EAE7;
+}
+
+/* inputs */
+Input {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #706C4C;
+    vertical-align: middle;
+    background-image: url("../imagens/bg_form_extended.gif");
+    border: 1px solid #CCCCCC;
+}
+
+/* input de entrada de texto (textfield) */
+Input.textField {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #706C4C;
+    background-image: url("../imagens/bg_form_extended.gif");
+    border: 1px solid #CCCCCC;
+}
+
+Select {
+    font-size: 10px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #000000;
+}
+
+/* botões */
+.Botao, .BotaoOnOver {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: url("../imagens/bt_primary-enabled.jpg");
+    background-repeat: repeat-x;
+    background-color: #F4F2EC;
+    background-position: center center;
+    color: #660000;
+    border-top:solid 1px #CAAC96;
+    border-bottom:solid 1px #CAAC96;
+    border-left:solid 1px #CAAC96;
+    border-right:solid 1px #CAAC96;
+    font-size: 10px;
+    padding: 0px 8px;
+    overflow: visible;
+}
+
+.BotaoOn, .BotaoOnOver:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: url("../imagens/bt_primary-roll.jpg");
+    background-repeat: repeat-x;
+    background-color: #e3d1d1; /*#A5CBDE;*/
+    background-position: center center;
+    color: #660000;
+    border: solid 1px #ab7878;
+    font-size: 10px;
+    padding: 0px 8px;
+    overflow: visible;
+}
+
+.BotaoOver {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-repeat:repeat-x;
+    background-color: #A5CBDE;
+    background-position:center center;
+    color:#666666;
+    border-top:solid 1px #336699;
+    border-bottom:solid 1px #336699;
+    border-left:solid 1px #6699CC;
+    border-right:solid 1px #6699CC;
+    font-size:11px;
+    padding:0px 8px;
+    overflow:visible;
+}
+
+/* Estilo que padroniza toda uma tabela de uma lista de itens
+   (qualquer objeto a ser exibido para o usuário */
+Table.tabelaLista {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border: 1px solid #CCCCCC;
+}
+Table.tabelaLista th {
+    background-color:#CCCCCC;
+    color:#900e0e;
+    font-weight:bold;
+}
+Table.tabelaLista tr.linhaEscura {
+    background-color:#FBF4F1;
+}
+
+/*========================= CAIXAS DE MENSAGEM =========================*/
+.info, .sucesso, .aviso, .erro {
+	border: 1px solid;
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	padding: .7em .7em .7em 30px;
+	/*font-size: 90%;*/
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*---------- Caixas Informativas - azul - Com um icone (i) ----------*/
+.info {
+/*	border-color: #000099;
+	background-color: #ECF5FF;*/
+	background-image: url("../imagens/icone_info.png");
+}
+
+fieldset.info legend, .info strong, .info b {
+	color: #000099;
+	font-weight: bold;
+}
+
+/*----------- Caixas de OK - verde - Com um icone (v) ------------*/
+.sucesso {
+	background-image: url("../imagens/icone_sucesso.png");
+	background-color: #CFC;
+}
+
+fieldset.sucesso legend, .sucesso strong, .sucesso b {
+	color: #009900;
+	font-weight: bold;
+}
+
+.caixaSucesso {
+	border:1px solid #0C0;
+	background-color: #CFC;
+	color:#030;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	margin:5px;
+	text-align:center;	
+}
+/*---------- Caixas Avisos - amarelo - Com um icone (!) -------------*/
+.aviso {
+	background-image: url("../imagens/icone_aviso.png");
+	background-color: #FFC;
+}
+
+fieldset.aviso legend, .aviso strong, .aviso b {
+	font-weight: bold;
+	color: #E99900;
+}
+
+.caixaAviso {
+	border:1px solid #FC0;
+	background-color: #FF9;
+	color:#030;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	margin:5px;
+	text-align:center;	
+}
+
+.caixaConclusao {
+	border:1px solid #FC0;
+	background-color: #FF9;
+	color:#030;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+	margin-left:auto; 
+    margin-right:auto;	
+}
+
+/*------------ Caixas Erro - vermelho - Com um icone (x) ------------*/
+.erro {
+	background-image: url("../imagens/icone_erro.png");
+	background-color: #FF8566;	
+	font-size:1.3em;
+}
+
+fieldset.erro legend, .erro strong, .erro b {
+	font-weight: bold;
+	color: #990000;
+}
+
+.caixaErro {
+	border:1px solid #C00;
+	background-color: #FCC;
+	color:#030;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	margin:5px;
+	text-align:center;	
+}
+
+/*---- Estilo para as caixas de tooltip ----------*/
+#ToolTip{
+    position: absolute;
+    visibility: hidden;
+    z-index: 100;
+    width:300;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BBBBBB;
+}
+.tooltiptitle{
+    background-color: #CCCCCC;
+    color: #900E0E;
+    text-decoration: none;
+    cursor: Default;
+    font: bold 10px Verdana, Helvetica;
+}
+.tooltipcontent{
+    background-color: #FEF8F6;    
+    color: #000000;
+    text-decoration: none;
+    cursor: Default;
+    font: 8pt Verdana, Helvetica;
+}
+
+/* -- link ahref como botão */
+.linkBt {
+	text-align:center;
+	border:1px solid #999;
+	background-color:#EEE;
+	margin:0 5px;
+	padding:5px;
+	color: black; 
+	font-size: 12px;
+	font-weight:bold;
+	line-height:30px;
+	white-space:nowrap;
+}
+
+/* links p/ ajuda */
+.ajuda_lnk {
+	padding: 0 1px;
+	border:1px solid #999;
+	color: #666 !important;
+	font-size:.9em;
+	text-decoration:none !important;		
+}
+.ajuda_lnk:hover {
+	border:1px dotted #999;
+	background: #333;
+	color: #FFF !important;
+}
+
+/*
+ * @author Alexandre Cardoso
+ * [art #926][20120323] ChangeRequest #926 - Reposicionar o módulo de inserção de documentos
+ */ 
+.inserirArquivo { 
+    border:1px solid #999; 
+    width : 95%;
+	margin:auto;
+	background-color: #FFC;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.hInserirArquivo { 
+	border:1px solid #999;
+    font-size:20px;
+    font-weight:bold;
+ 	background-color: #FFCC99;
+ 	text-align:center;
+    margin-bottom:10px;
+}
+.tbInserirArquivo { 
+    border:0px; 
+    width : 100%;
+	margin:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.titInserirArquivo {
+	font-size:18px !important;
+	font-weight:bold;
+	color:#900;
+}
+
+.titArquivosJaInseridos {
+	font-size:18px !important;
+	font-weight:bold;
+	color:#900;
+	
+}
+
+.numProcesso {
+	color:#990000;
+	font-size:16px;
+	font-weight:bold;
+	padding: 3px;
+}
+
+.statusProcesso {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	padding: 10px;
+	border:2px solid #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-kthml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.statusProcessoResumo {
+	font-size:12px !important;
+	font-weight:bold !important;
+	color:#fff;
+	text-align:center !important;
+	padding: 1px !important;
+	border:1px solid #666 !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-kthml-border-radius: 5px !important;
+	border-radius: 5px !important;
+	overflow:hidden !important;
+	float:left;
+	margin:1px !important;
+	vertical-align:middle !important;
+	width:16px;
+	height:16px;
+	line-height:16px;
+}
+
+.statusArquivado {	
+	background-color:#000 !important;
+}
+
+.statusSobrestado {	
+	background-color:#963 !important;
+}
+
+.statusIndAcompanhamento {	
+	background-color:#009 !important;
+}
+
+.statusRecursoAcao {	
+	background-color:#C00 !important;
+}
+
+.statusPadrao, .statusExercicio, .statusAmbito {	
+	background-color:#EEE !important;
+	color:#555 !important;
+}
+
+.statusVisaCautelar {
+	color:white;
+	background-color:red;
+	font-weight: bold;
+}
+
+/* Tipo: Processo */
+.statusTipo0 {
+	color:#333 !important;
+	background-color:#FF6 !important;
+}
+
+/* Tipo: Expediente */
+.statusTipo1 {
+	color:#FF6 !important;
+	background-color:#666 !important;
+}
+
+.statusObjeto {	
+	background-color:#FFF !important;
+	color:#333 !important;
+}
+
+
+.statusConclusao {
+	background-color:#F90 !important;
+}
+
+.statusSetor {
+	font-size:.9em !important;
+	background-color:#FFF !important;
+	color:#333 !important;
+}
+
+.statusColegiado {
+	background-color:#909 !important;
+}
+.statusTpSessaoT {
+	background-color:#909 !important;
+}
+.statusTpSessaoV {
+	background-color:#F0F !important;
+}
+
+.statusVistas {
+	background-color:#393 !important;
+}
+
+.statusResultado {
+	background-color:#09F !important;
+}
+
+.statusNivelAcesso0 {
+	background-color:#009900!important;
+}
+.statusNivelAcesso1 {
+	background-color:#ff8040!important;
+}
+.statusNivelAcesso2 {
+	background-color:#cc0000!important;
+}
+
+.nivelAcessoParteProcesso0, .nivelAcessoParteProcesso1, .nivelAcessoParteProcesso2 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.nivelAcessoParteProcesso0 {
+	background-color:#cc0000!important;
+}
+.nivelAcessoParteProcesso1 {
+	background-color:#009900!important;
+}
+.nivelAcessoParteProcesso2 {
+	background-color:#FF9900!important;
+}
+
+.listaLinkProcs {
+	margin-right: 25px;
+	float: left;
+}
+
+.jaInseridosDestaque .tbInserirArquivo .topico {
+	background-color:#FF0;
+}
+
+/* -- Documento relativo -- */		
+.docRel {
+	border:1px solid #999;
+	padding:5px;
+}
+.docRel table, .docRel td {
+	border-collapse: collapse;
+	border:1px solid #CCC;
+	padding:3px;
+}
+
+/* -- Ícone de calendário p/ datepicker -- */
+.ui-datepicker-trigger {
+	vertical-align: middle;
+}
