@@ -3,61 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu de Processos TCESP</title>
+    <title>Contas do Executivo de 2023 - TCESP - Porto Feliz</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f9;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            padding: 20px;
         }
         .menu-container {
             background-color: #ffffff;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        .logo-camara {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
         }
         h1 {
-            color: #333;
+            color: #2c3e50;
             margin-bottom: 1.5rem;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
         }
         .menu-item {
             display: block;
             text-decoration: none;
-            color: #0056b3;
-            border: 1px solid #0056b3;
-            padding: 10px 20px;
-            margin: 10px 0;
-            border-radius: 5px;
+            color: #004a99;
+            border: 1px solid #dee2e6;
+            padding: 18px;
+            margin: 12px 0;
+            border-radius: 8px;
             transition: all 0.3s ease;
+            background-color: #fdfdfd;
         }
         .menu-item:hover {
-            background-color: #0056b3;
-            color: white;
+            border-color: #004a99;
+            background-color: #f0f7ff;
+            box-shadow: 0 4px 12px rgba(0,74,153,0.1);
         }
         .menu-item h2 {
             margin: 0;
-            font-size: 1.2rem;
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+        .btn-voltar {
+            margin-top: 20px;
+            background-color: #6c757d;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.85rem;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-voltar:hover {
+            background-color: #495057;
+        }
+        /* Rodapé */
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.8rem;
+            color: #6c757d;
+            line-height: 1.6;
+        }
+        .contato-destaque {
+            color: #333;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
 
     <div class="menu-container">
-        <h1>Consulta de Processos</h1>
+        <img src="logo_camara.jpg" alt="Câmara Municipal de Porto Feliz" class="logo-camara">
+        
+        <h1>Contas do Executivo de 2023 - TCESP</h1>
         
         <a href="./4506.989.23-5/index.html" class="menu-item">
-            <h2>Processo TCESP: 4506.989.23-5</h2>
+            <h2>Processo: 4506.989.23-5</h2>
         </a>
 
         <a href="./7685.989.23-8/index.html" class="menu-item">
-            <h2>Processo TCESP: 7685.989.23-8</h2>
+            <h2>Processo: 7685.989.23-8</h2>
         </a>
+
+        <button onclick="history.back()" class="btn-voltar">
+            ← VOLTAR
+        </button>
+
+        
     </div>
 
 </body>
